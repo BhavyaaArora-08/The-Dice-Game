@@ -1,0 +1,52 @@
+body{
+  font-family: 'Pacifico', cursive;
+  text-align: center;
+}
+
+h1{
+  margin-top: 5%;
+  font-size: 80px;
+}
+
+.container {
+  background: #ffc8c8;
+  margin-top: 5%;
+  width: 60%;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+  box-sizing: content-box;
+}
+
+.hey{
+  background: black;
+}
+td {
+  text-align: center;
+}
+
+.unhide{
+  visibility: visible;
+}
+
+.hide{
+  visibility: hidden;
+}
+.dice1, .dice2 {
+  text-align: center;
+  margin: 0 auto;
+  background: #3e4149;
+  margin: 10% auto;
+  width: 200px;
+  height: 200px;
+  border-radius: 10px;
+}
+
+.dice1:hover, .dice2:hover{
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+  cursor:  pointer;
+}
+
+.head{
+  text-align: center;
+  margin: 0 auto;
+  padding-top: 2%;
+}
